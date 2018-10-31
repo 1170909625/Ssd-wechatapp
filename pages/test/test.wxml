@@ -1,0 +1,15 @@
+<swiper indicator-dots="{{indicatorDots}}"
+ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <block wx:for="{{imgUrls}}" wx:key="unique">
+  <swiper-item>
+   <image src="{{item}}" class="slide-image"/>
+  </swiper-item>
+ </block>
+</swiper>
+
+
+
+<view class='container'>
+  <text>这是我第一个小程序页面!!!</text>
+</view>
+

@@ -1,0 +1,6 @@
+/* pages/test/test.wxss */
+.slide-image{
+   width: 1024rpx;
+  height: 683rpx;
+  margin: 20rpx;
+}
